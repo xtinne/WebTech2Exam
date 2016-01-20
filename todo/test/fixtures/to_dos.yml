@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  ingavedatum: 2016-01-20
+  einddatum: 2016-01-20
+  prioriteit: 1
+  beschrijving: MyString
+  status: 1
+
+two:
+  ingavedatum: 2016-01-20
+  einddatum: 2016-01-20
+  prioriteit: 1
+  beschrijving: MyString
+  status: 1
