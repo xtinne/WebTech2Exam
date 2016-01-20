@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do's</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" type="text/css">
+  </head>
+  <body>
+  
+  <div class='well'>
+    <h1>To Do's</h1>
+    
+	<table class='table table-hover'>>
+    <tr>
+	<td>ID:</td><td><input id='id' type='text' size='10'></td>
+	</tr>
+	<tr>
+	<td colspan='2' align='center'>
+	<button onclick='buildOutput()'>Ok</button>
+	</td>
+	</tr>
+	</table>
+	<div id='output'></div>
+	<div id='edit'></div>
+	</div>
+  </body>
+  <script src="vendor/couchapp/loader.js"></script>
+  <script src='scripts/jquery-2.1.4.min.js'></script>
+    <script src='scripts/main.js'></script>
+    <script src='scripts/bootstrap.min.js'></script>
+    <script src='scripts/typeahead.bundle.min.js'></script>
+ </html>
