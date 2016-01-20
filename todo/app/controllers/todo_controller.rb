@@ -32,8 +32,7 @@ def show
 	@todos = Todo.find(params[:prioriteit])
 
 	respond_to do |format|
-  		format.json { render :json => @todos }
-
+  		format.json { render :json => @todos 
 end
 
 private
